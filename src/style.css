@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --primary: #D5966C;
+  --secondary: #151515;
+  --tertiary: #444444;
+  --quaternary: #FFFFFF;
+
+  --font-big-shoulders: "Big Shoulders Display", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+
+  --breakpoint-hm: 90rem;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-outfit);
+    font-weight: 300;
+  }
+}
+
+@utility button11 {
+  width: 260px;
+  height: 72px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-top: 32px;
+  display: block;
+  display: flex;
+  text-decoration: none;
+}
+
+@utility textbutton11 {
+  width: 204px;
+  height: 72px;
+  background-color: var(--secondary);
+  color: var(--quaternary);
+  padding: 10px 20px;
+  font-family: var(--font-big-shoulders);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: background-color 0.3s ease;
+
+  .button11:hover & {
+    background-color: var(--primary);
+  }
+}
+
+@utility spanbutton11 {
+  width: 56px;
+  height: 72px;
+  background-color: var(--primary);
+  color: var(--quaternary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+
+  .button11:hover & {
+    background-color: var(--secondary);
+  }
+}
+
+@utility button12 {
+  width: 260px;
+  height: 72px;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-top: 0px;
+  display: block;
+  display: flex;
+  text-decoration: none;
+}
+
+@utility textbutton12 {
+  width: 204px;
+  height: 72px;
+  background-color: var(--secondary);
+  color: var(--quaternary);
+  padding: 10px 20px;
+  font-family: var(--font-big-shoulders);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: background-color 0.3s ease;
+
+  .button12:hover & {
+    background-color: var(--primary);
+  }
+}
+
+@utility spanbutton12 {
+  width: 56px;
+  height: 72px;
+  background-color: var(--primary);
+  color: var(--quaternary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+
+  .button12:hover & {
+    background-color: var(--secondary);
+  }
+}
